@@ -11,9 +11,10 @@ $(document).ready(function() {
     response.innerHTML =
       "<h5>Text message sent to " +
       data.number +
+      ":" +
       "</h5>" +
       "<h4>" +
-      data.message +
+      data.text +
       "</h4>";
   });
 

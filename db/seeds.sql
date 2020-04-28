@@ -1,14 +1,14 @@
-INSERT INTO friendly.Interests (interestName) 
+INSERT INTO friendly.interests (interestName) 
 VALUES ("Hiking"), ("Coding"), ("Singing"), ("Dancing"), ("Cooking"), ("Fashion"), ("Music"), ("Film");
 
-INSERT INTO friendly.Users (email, password, phone, age)
+INSERT INTO friendly.users (email, password, phone, age)
 VALUES ("kayla@gmail.com", "password", 2142141111, 26),
 ("randy@glive.com", "password", 2142142222, 24),
 ("inna@yahoo.com", "password", 2144693333, 21),
 ("valerie@gmail.com", "password", 2144723323, 22),
 ("lance@hotmail.com", "password", 2144522456, 18);
 
-INSERT INTO friendly.UserInterests (interestName, userEmail, userPhone, InterestId, UserId)
+INSERT INTO friendly.userinterests (interestName, userEmail, userPhone, InterestId, UserId)
 VALUES("Coding", "kayla@gmail.com", 2142141111, 2, 1),
 ("Hiking", "kayla@gmail.com", 2142141111, 1, 1),
 ("Cooking", "kayla@gmail.com", 2142141111, 5, 1),
