@@ -22,6 +22,7 @@ So that I can make more friends and grow my network over the Internet
 
 ## Table of Contents
 1. [Creators](#creators)
+2. [Technologies](#technologies)
 2. [Usage](#usage)
 3. [License](#license)
 4. [Contributing](#contributing)
@@ -53,10 +54,21 @@ So that I can make more friends and grow my network over the Internet
 - Product testing/debugging
 - Presentation + final product quality
 
+## Technologies
+<p id='technologies'></p>
+
+- Node.js
+- Express.js
+- Handlebars.js
+- Passport.js
+- MySQL
+- Sequelize
+- Socket.io
+
 ## Usage
 <p id='usage'></p>
 
-https://git.heroku.com/friendly-2020.git
+https://friendly-2020.herokuapp.com/
 
 Navigate to the site above. If you are a new user, enter your email address, phone #, password, and age to sign up for the site. If you are a returning user, click to log in and enter your passwrod and email address to return to the site. Once signed up/logged in you will be able to choose and/or view your interests. Submitting your interests will take you to a page listing all of your selected hobbies, and clicking any of these will take you to a page revealing all other users who share the same interests, including their email and phone #.
 
